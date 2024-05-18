@@ -79,4 +79,14 @@ With BongaPlus, the world speaks as one. 🌍💬
 - Enhance the audio translation feature to support more languages and dialects.
 - Implement user notifications and message history for better user experience.
 
+### Installation
+
+In the project directory, you can run:
+
+### `npm install`
+### `npm install webpack webpack-cli -D`
+### `npm run build`
+
+Go Live.
+
 
