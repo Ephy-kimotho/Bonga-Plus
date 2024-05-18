@@ -2,6 +2,9 @@
 
 <img src="https://github.com/Jeremy-Bosire/BongaPlus/blob/main/Dark%20Abstract%20Black%20Panther%20Gaming%20Logo.png">
 
+### A GLIMPSE OF THE PROTOTYPE (Click link in [Links](#🔥🔥-links-🔥🔥) section):
+<img src="https://github.com/Ephy-kimotho/Bonga-Plus/blob/main/AppScreenshots/Prototype.jpeg">
+
 <a href="https://github.com/starlightknown/LearnScape"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 <a href="https://github.com/starlightknown/LearnScape"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
 <a href="https://github.com/starlightknown/LearnScape"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
