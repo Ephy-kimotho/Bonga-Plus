@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="auth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <section class="greet-user">
+            <h1>Hello Friend </h1>
+            <h2>Welcome to Bonga plus</h2>
+        </section>
+        <section class="form-section">
+            <form  id="register-form">
+                <div class="input-container">
+                    <h2 class="form-title">SIGN TO BONGA PLUS</h2>
+
+                    <div class="input-wrapper">
+                        <label for="email">Email:</label>
+                        <div class="input-div">
+                            <input type="email" name="email" id="email" />
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <p class="input-error" id="email-error"></p>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="password">Password:</label>
+                        <div class="input-div">
+                            <input type="password" name="password" id="password">
+                            <i class="fa-solid fa-eye-slash"></i>
+                        </div>
+                        <p class="input-error" id="password-error"></p>
+                    </div>
+
+
+                    <div class="submitBtn-container">
+                        <input type="submit" value="Sign In" id="sign-in-btn"">
+                </div>
+        
+                <div class=" login-statement">
+                        <p>Don't have an account ? <a href="./signup.html">Sign Up</a></p>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

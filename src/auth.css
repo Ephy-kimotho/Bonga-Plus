@@ -1,0 +1,166 @@
+/* === GOOGLE FONT IMPORTS === */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* === GLOBLA STYLING === */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Montserrat, sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* === GREET USER STYLING */
+
+.greet-user{
+    flex:1;
+    height: 100%;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: aqua;
+}
+
+.greet-user h2{
+    font-size: 1.6rem;
+}
+
+/* === FORM SECTION STYLING ===  */
+
+.form-section{
+    flex: 1;
+    padding: 50px 100px 100px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.form-title {
+    color: #495896;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.update-form-title{
+    margin: 15px 0 20px;
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+}
+.input-wrapper  span{
+    color: #FF0800;
+}
+
+label{
+    color: #373838;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.3px;
+}
+
+.input-div {
+    position: relative;
+    margin-top: 2px;
+}
+
+.input-div input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-div input:focus{
+    border: 2px solid #010;
+}
+
+.input-div i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    color: #1B1B1B;
+}
+
+.input-error {
+    display:block;
+    height:10px ;
+    border-radius: 5px;
+    padding:5px;
+    color: #FF0800;
+    font-size: 12px;
+}
+
+.submitBtn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.login-statement {
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.login-statement a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-statement a:hover {
+    text-decoration: underline;
+}
+
+/* ==== Style for success message ==== */
+.success-message {
+    background-color: #dff0d8; 
+    color: #3c763d; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d0e9c6; 
+    border-radius: 5px;    
+}
+
+/* ==== Style for error message ==== */
+.error-message {
+    background-color: #f2dede; 
+    color: #a94442; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ebccd1; 
+    border-radius: 5px;
+}
