@@ -1,0 +1,19 @@
+{
+  "name": "bongaplus",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "build": "webpack --mode=development"
+  },
+  "keywords": [],
+  "author": "Ephy Kimotho",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "firebase": "^10.12.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
